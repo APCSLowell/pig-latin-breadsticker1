@@ -50,7 +50,7 @@ public class PigLatin {
 	  {
 	    return sWord.substring(2,cat) + "qu" + "ay";
 	  }
-	  else if(findFirstVowel(sWord) == 1)
+	  else if(findFirstVowel(sWord) == 0)
 	  {
 	    return sWord + "way";
 	  }
